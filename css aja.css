@@ -1,0 +1,88 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    outline-style: auto;
+}
+body {
+    background-image: url(http://ridhoadzihni.github.io/111.jfif);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: green;
+    border-style: solid;
+}
+nav{
+	display: flex;
+	padding: 2% 4%;
+	justify-content: space-between;
+	align-items: center;
+	border: none;
+}
+nav h1 {
+	padding: 15px 0px;
+	font-size: 25px;
+	color: #fff;
+	z-index: 1;
+	font: 'Poppins', sans-serif;
+}
+.nav-links{
+	flex: 1;
+	text-align: right;
+}
+.nav-links ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+	color: #fff;
+	z-index:1 ;
+	font-size: 16px;
+	font: 'Comfortaa', cursive;
+}
+.nav-links ul li::after {
+	content: '';
+	width: 0%;
+	height: 2px;
+	background:#e18c37;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+	width: 100%
+}
+td, th {
+    background-color: gainsboro;
+    border: 5px solid black;
+    text-align: center;
+    padding: 10px;
+}
+tr:nth-child(even) {
+    background-color:#0dd850;
+}
+h1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: chartreuse;
+    background-color: azure;
+    height: fit-content;
+    width: fit-content;
+    font-size: 50px;
+}
+p {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    font-family: fantasy;
+    font-size: x-large;
+    height: fit-content;
+    width: fit-content;
+}
